@@ -1,0 +1,437 @@
+@charset "UTF-8";
+
+//메인 페이지
+#mainCont {
+    height: 100vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .main__cont {
+        color: #fff;
+        font-size: 10vw;
+        line-height: 0.85;
+        font-family: 'Saol Display Regular';
+        text-transform: uppercase;
+    }
+}
+
+ 
+  //about
+  #aboutCont {
+    background-color: #f0eeeb;
+  }
+  .about-cont .about {
+    padding-bottom: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .about-cont .about:nth-child(1) .about-img {
+    flex: 0 0 100%;
+  }
+  .about-cont .about:nth-child(1) .about-txt {
+    flex: 0 0 100%;
+  }
+  .about-cont .about:nth-child(1) .about-txt h2 {
+    margin-top: 2em;
+  }
+  .about-cont .about:nth-child(2) .about-img {
+    flex: 0 0 64%;
+  }
+  .about-cont .about:nth-child(2) .about-txt {
+    flex: 0 0 30%;
+  }
+  .about-cont .about:nth-child(3) {
+    flex-direction: row-reverse;
+  }
+  .about-cont .about:nth-child(3) .about-img {
+    flex: 0 0 54%;
+  }
+  .about-cont .about:nth-child(3) .about-txt {
+    flex: 0 0 40%;
+  }
+  .about-cont .about .about-txt {
+    font-family: "Chosunilbo_myungjo";
+  }
+  .about-cont .about .about-txt h2 {
+    margin: 0 0 1em;
+    font-size: 1.625rem;
+  }
+  .about-cont .about .about-txt p {
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  // /* 스크립트 페이지 */
+  // .js-box {
+  //   font-family: "Chosunilbo_myungjo";
+  //   color: #030406;
+  //   padding-bottom: 140px;
+  // }
+  
+  // .js-box .js__motherbox .js__img.active {
+  //   display: block;
+  // }
+  
+  // .js-box .js__motherbox .js__img.active img {
+  //   display: block;
+  // }
+  
+  // .js-box .js__motherbox .js__img {
+  //   display: none;
+  //   overflow: hidden;
+  //   height: 25vw;
+  //   -webkit-box-flex: 1;
+  //   -ms-flex: 1 1 100%;
+  //   flex: 1 1 100%;
+  // }
+  
+  // .js-box h2 {
+  //   margin: 40px 0 16px 0;
+  //   font-size: 30px;
+  //   font-weight: normal;
+  // }
+  
+  // .js-box .js__desc {
+  //   display: -webkit-box;
+  //   display: -ms-flexbox;
+  //   display: flex;
+  //   font-size: 18px;
+  // }
+  
+  // .js-box .js__desc .js_descText {
+  //   -webkit-box-flex: 1;
+  //   -ms-flex: 1 1 75%;
+  //   flex: 1 1 75%;
+  //   overflow: hidden;
+  // }
+  
+  // .js-box .js__desc .js_descText .motherbox.active {
+  //   display: block;
+  // }
+  
+  // .js-box .js__desc .js_descText .motherbox {
+  //   display: none;
+  // }
+  
+  // .js-box .js__desc .js_descText .motherbox div {
+  //   width: 45%;
+  //   float: left;
+  // }
+  
+  // .js-box .js__desc .js_descText .motherbox div:nth-child(1) {
+  //   margin-right: 40px;
+  // }
+  
+  // .js-box .js_menu {
+  //   -webkit-box-flex: 1;
+  //   -ms-flex: 1 1 25%;
+  //   flex: 1 1 25%;
+  // }
+  
+  // .js-box .js_menu li {
+  //   font-size: 18px;
+  //   display: inline;
+  //   list-style: none;
+  // }
+  
+  // .js-box .js_menu li a {
+  //   display: inline-block;
+  //   line-height: 50px;
+  //   text-align: center;
+  //   width: 50px;
+  //   height: 50px;
+  //   border-radius: 50%;
+  //   border: 1px solid #9b9b9b;
+  //   margin-right: 5px;
+  // }
+  
+  // .js-box .js_menu li a:nth-child(1),
+  // .js-box .js_menu li a:nth-child(2),
+  // .js-box .js_menu li a:nth-child(3),
+  // .js-box .js_menu li a:nth-child(4),
+  // .js-box .js_menu li a:nth-child(5) {
+  //   margin-bottom: 18px;
+  // }
+  
+  // .js-box .js_menu li a:nth-child(5n) {
+  //   margin-right: 0;
+  // }
+  
+  // .js-box .js_menu li a.active {
+  //   border: 1px dashed #9b9b9b;
+  // }
+  
+  /* 스크립트 페이지 2 */
+  
+  #ScriptCont {
+    background: #f0eeeb;
+  }
+  .script__cont {
+    padding-bottom: 300px;
+  }
+  .script__cont__wrap {
+    margin-bottom: 150px;
+  }
+  .script__cont__img {
+    height: 480px;
+    overflow: hidden;
+    object-position: center;
+  }
+  .script__cont__txt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    h2 {
+      flex: 0 0 100%;
+      font-family: "Chosunilbo_myungjo";
+      font-size: 30px;
+      padding: 30px 0 30px;
+    }
+    p {
+      flex: 0 0 34%;
+      font-size: 18px;
+      font-family: "Chosunilbo_myungjo";
+      text-align: justify;
+    }
+    ul {
+      flex: 0 0 25%;
+      text-align: right;
+  
+      li {
+        display: inline;
+        width: 20%;
+  
+        a {
+          display: inline-block;
+          border: 1px solid #9b9b9b;
+          border-radius: 50%;
+          width: 51px;
+          height: 51px;
+          color: #9b9b9b;
+          text-align: center;
+          line-height: 51px;
+          // margin: 0 14px 14px 14px;
+          margin-left: 14px;
+          margin-bottom: 14px;
+        }
+      }
+    }
+  }
+  
+
+/* reference 페이지 */@at-root
+/* referCont */
+#referCont {
+    background-color: #f0eeeb;
+}
+.refer-cont {
+    padding-bottom: 200px;
+}
+.refer-cont .refer-title li {
+    display: inline;
+    font-family: 'Rajdhani';
+}
+.refer-cont .refer-title li a {
+    font-size: 1.4rem;
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    border: 1px solid #222;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-right: 10px;
+}
+.refer-cont .refer-title li.active a {
+    background: #000;
+    color: #fff;
+}
+.refer-cont .refer-table {
+    border-bottom: 2px solid #000;
+    margin-top: 1.2rem;
+
+    h3 {
+        font-size: 2rem;
+        font-family: 'S-CoreDream-2ExtraLight';
+        text-transform: uppercase;
+        margin-bottom: 0.6em;
+    }
+}
+.refer-cont .refer-table li {
+    margin: 0;
+    list-style: none;
+    border-top: 1px solid #000;
+    position: relative;
+    transition: all 0.3s;
+}
+.refer-cont .refer-table li:hover {
+    background: rgba(0, 0, 0, 0.081);
+}
+.refer-cont .refer-table li span {
+    display: inline-block;
+    padding: 25px 10px;
+    font-size: 14px;
+    font-family: 'S-CoreDream-3Light';
+    box-sizing: border-box;
+}
+.refer-cont .refer-table li span.alpha {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.refer-cont .refer-table li span.attr {
+    padding-left: 10%;
+    width: 35%;
+}
+.refer-cont .refer-table li span.desc {
+    width: 64.5%;
+}
+
+
+//portfolio 페이지
+
+#portCont {
+  background: #000;
+  padding-bottom: 200px;
+}
+.port__cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.port__item {
+  flex: 0 0 32%;
+  margin-bottom: 2%;
+}
+.port__item__txt {
+  padding: 35px 35px 25px 35px;
+  background: #151517;
+  
+  h2 {
+      font-family: 'Saol Display Regular';
+      line-height: 1;
+      color: #fff;
+      font-size: 50px;
+      padding-bottom: 20px;
+  }
+  p {
+      font-size: 16px;
+      color: #b0aead;
+      font-family: 'Rajdhani';
+  }
+}
+
+#footer {
+    background-color: #000;
+    height: 100vh;
+}
+.footer__inner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.footer__inner p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 80px;
+    font-family: 'Rajdhani', 'Chosunilbo_myungjo';
+}
+.footer__inner h3 {
+    font-size: 144px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    font-family: 'Saol Display Regular';
+}
+.footer__inner a {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 18px 53px 18px 53px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Rajdhani', 'Chosunilbo_myungjo';
+}
+
+
+/* youtubeCont */
+#youtubeCont {
+    background-color: #f0eeeb;
+}
+.youtube__cont {
+    padding-bottom: 200px;
+}
+.site {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.site h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    flex: 0 0 100%;
+    font-family: 'Chosunilbo_myungjo';
+}
+.site .left {
+    flex: 0 0 35%;
+}
+.site .right {
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 18px;
+    flex: 0 0 60%;
+}
+.site .right dl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.site .right dt {
+    flex: 0 0 20%;
+}
+.site .right dd {
+    flex: 0 0 80%;
+    padding-bottom: 30px;
+}
+.youtube-search {
+    font-family: 'Chosunilbo_myungjo';
+}
+.youtube-search .title h2 {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.youtube-search .title input {
+    border: 0;
+    padding: 10px;
+    vertical-align: 5px;
+    font-family: 'Chosunilbo_myungjo';
+}
+.youtube-search .title button {
+    border: 0;
+    padding: 10px 30px;
+    background: #000;
+    color: #fff;
+    vertical-align: 5px;
+    margin-left: 5px;
+    font-family: 'Chosunilbo_myungjo';
+}
+.youtube-search .list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.youtube-search .list li {
+    flex : 0 0 19%;
+    margin-bottom: 2%;
+}
+.youtube-search .list li strong {
+    margin-top: 5px;
+    display: block;
+}
